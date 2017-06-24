@@ -21,7 +21,7 @@ public final class NetworkUtils {
     public static final String PARAM_SORT = "sortBy";
     public static final String API_KEY = "apiKey";
 
-    public static final String API_KEY_Value ="8eff322fdb4e408a89eccde94a4a370e";
+    public static final String API_KEY_Value = "";
 
     public static URL makeURL(String searchQuery, String sortBy) {
         Uri uri = Uri.parse(GITHUB_BASE_URL).buildUpon()
